@@ -3,9 +3,13 @@
     "dev": "phonegap serve"
   },
   "dependencies": {
+    "com-sarriaroman-photoviewer": "1.2.4",
     "cordova-android": "^8.1.0",
     "cordova-browser": "^6.0.0",
+    "cordova-clipboard": "1.3.0",
     "cordova-ios": "^5.1.1",
+    "cordova-plugin-actionsheet": "2.3.3",
+    "cordova-plugin-app-version": "0.1.9",
     "cordova-plugin-battery-status": "2.0.3",
     "cordova-plugin-camera": "4.1.0",
     "cordova-plugin-device": "2.0.3",
@@ -14,14 +18,31 @@
     "cordova-plugin-geolocation": "4.0.2",
     "cordova-plugin-globalization": "1.11.0",
     "cordova-plugin-inappbrowser": "3.2.0",
+    "cordova-plugin-ionic-keyboard": "2.2.0",
+    "cordova-plugin-ionic-webview": "4.1.3",
     "cordova-plugin-media-capture": "3.0.3",
+    "cordova-plugin-nativestorage": "2.3.2",
     "cordova-plugin-network-information": "2.0.2",
+    "cordova-plugin-simple-image-resizer": "git+https://github.com/JoschkaSchulz/cordova-plugin-image-resizer.git",
+    "cordova-plugin-statusbar": "2.4.3",
+    "cordova-plugin-taptic-engine": "2.1.0",
+    "cordova-plugin-themeablebrowser": "0.2.18",
     "cordova-plugin-vibration": "3.1.1",
+    "cordova-plugin-whitelist": "1.3.4",
+    "cordova-plugin-x-socialsharing": "5.6.3",
+    "cordova-support-google-services": "1.3.2",
+    "es6-promise-plugin": "4.2.2",
     "phonegap": "^9.0.0",
+    "phonegap-plugin-multidex": "1.0.0",
+    "phonegap-plugin-push": "2.3.0",
     "prettier": "^1.19.1"
   },
   "cordova": {
     "plugins": {
+      "com-sarriaroman-photoviewer": {},
+      "cordova-clipboard": {},
+      "cordova-plugin-actionsheet": {},
+      "cordova-plugin-app-version": {},
       "cordova-plugin-battery-status": {},
       "cordova-plugin-camera": {
         "ANDROID_SUPPORT_V4_VERSION": "27.+"
@@ -32,9 +53,31 @@
       "cordova-plugin-geolocation": {},
       "cordova-plugin-globalization": {},
       "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-ionic-keyboard": {},
+      "cordova-plugin-ionic-webview": {
+        "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+"
+      },
       "cordova-plugin-media-capture": {},
+      "cordova-plugin-nativestorage": {},
       "cordova-plugin-network-information": {},
-      "cordova-plugin-vibration": {}
+      "cordova-plugin-simple-image-resizer": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-taptic-engine": {},
+      "cordova-plugin-themeablebrowser": {},
+      "cordova-plugin-vibration": {},
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-x-socialsharing": {
+        "ANDROID_SUPPORT_V4_VERSION": "24.1.1+",
+        "PHOTO_LIBRARY_ADD_USAGE_DESCRIPTION": "This app requires photo library access to function properly.",
+        "PHOTO_LIBRARY_USAGE_DESCRIPTION": "This app requires photo library access to function properly."
+      },
+      "cordova-support-google-services": {},
+      "es6-promise-plugin": {},
+      "phonegap-plugin-multidex": {},
+      "phonegap-plugin-push": {
+        "ANDROID_SUPPORT_V13_VERSION": "27.+",
+        "FCM_VERSION": "17.0.+"
+      }
     },
     "platforms": [
       "android",
